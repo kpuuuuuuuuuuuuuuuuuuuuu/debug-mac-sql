@@ -11,6 +11,9 @@ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/mast
 puis/sinon:
 
 brew install mysql  
+
 brew tap homebrew/services
+
 brew services start mysql
+
 mysql -u root -p
