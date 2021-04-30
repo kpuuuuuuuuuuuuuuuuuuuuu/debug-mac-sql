@@ -1,9 +1,9 @@
 # debug-mac-sql
-installer sur OS
 
 
-pour installer SQL POUR MAC:
-si  vieux mac on update avec :
+
+pour installer SQL POUR Mac OS :
+si  vieux mac on update ds le shell :
 
 
 curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
