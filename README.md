@@ -24,7 +24,7 @@ pour connecté le shell sql en cours avec son phpmyadmin:
 
 
 
-CUSTOMISER shell avec zsh:                  https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb
+
        __                                     __
   ____  / /_     ____ ___  __  __   ____  _____/ /_
  / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
@@ -33,17 +33,32 @@ CUSTOMISER shell avec zsh:                  https://medium.com/wearetheledger/oh
                         /____/                       ....is now installed!
 
 
+
+CUSTOMISER shell avec zsh:                  https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb
+
+                        
+                        
+Choisir un thème
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+
 Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugins, themes, and options.
 
 Install prerequisite packages
 $ sudo apt install git-core zsh
+
 Install Oh-My-Zsh from Robby Russell’s repository
 $ sh -c “$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 Install the Powerline font to spice up your CLI with icons
 $ sudo apt install fonts-powerline
+
 Change theme from ‘robbyrussell’ to ‘agnoster’ for the legendary Oh-My-Zsh theme
 $ nano ~/.zshrc
-Find the ZSH_THEME variable and change it:ZSH_THEME="agnoster"
+
+Find the ZSH_THEME variable and change it:ZSH_THEME="agnoster"   MOI JE pref lea
+
 I don’t like it that the theme shows my username and host. To get rid of this, we change the directory to
 $ cd ~/.oh-my-zsh/themes
 Next we open the theme file for ‘agnoster’ in the editor
@@ -61,5 +76,7 @@ All plugins listed on the plugins Github page are pre-installed with Oh-My-Zsh a
 Colored-man-pages
 In this example, I’ve installed a useful plugin to give color highlighting to your man pages . To be able to use the plugin, source your .zshrcfile:
 $ source ~/.zshrc
+
+
 
 
