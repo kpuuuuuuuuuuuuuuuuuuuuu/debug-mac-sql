@@ -57,7 +57,7 @@ $ sudo apt install fonts-powerline
 Change theme from ‘robbyrussell’ to ‘agnoster’ for the legendary Oh-My-Zsh theme
 $ nano ~/.zshrc
 
-Find the ZSH_THEME variable and change it:ZSH_THEME="agnoster"   MOI JE pref lea
+Find the ZSH_THEME variable and change it:ZSH_THEME="agnoster"    aussi le  alanpeabody
 
 I don’t like it that the theme shows my username and host. To get rid of this, we change the directory to
 $ cd ~/.oh-my-zsh/themes
@@ -65,7 +65,7 @@ Next we open the theme file for ‘agnoster’ in the editor
 $ nano agnoster.zsh-theme
 Now we can change the ‘Main prompt’. We don’t need to prompt_context in the function build_prompt(). Just comment out this line or remove it. At last, change the PROMPT variable to $(build_prompt).
 
-Agnoster theme configuration
+Agnoster theme configuration     
 To actually see the theme, you have to source your .zshrc file like this: source ~/.zshrc. If everything worked out fine, you should see something like the cover image!
 Extra: Set zsh as our default shell. Execute this in your default shell, in most cases this will be bash. If you execute this command in zsh, it won’t change anything:
 $ chsh -s $(which zsh)
