@@ -43,6 +43,11 @@ Choisir un thème
 https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 
+voir les themes dispo sur l'ordi
+cd ~/.oh-my-zsh/themes
+ls
+
+
 Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugins, themes, and options.
 
 Install prerequisite packages
